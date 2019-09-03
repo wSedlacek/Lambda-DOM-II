@@ -11,6 +11,7 @@ window.addEventListener('resize', e => (nav.style.color = 'red'));
 nav.addEventListener('mouseenter', e => console.log('I am watching you.'));
 nav.addEventListener('mouseleave', e => console.log('Wait.... come back!!!'));
 nav.addEventListener('wheel', e => (nav.style.color = 'pink'));
+nav.addEventListener('click', e => e.preventDefault());
 
 home.addEventListener('selectstart', e => {
   home.style.backgroundColor = 'red';
@@ -24,6 +25,11 @@ imgs.forEach(img => {
 });
 
 btns.forEach(btn => {
-  btn.addEventListener('click', e => alert('Our Services have bene shutdown. Check back later.'));
+  btn.addEventListener('selectstart', e => {
+    e.stopPropagation();
+  });
+  btn.addEventListener('click', e => {
+    alert('Our Services have bene shutdown. Check back later.');
+  });
   btn.addEventListener('mouseover', e => (btn.style.backgroundColor = 'red'));
 });

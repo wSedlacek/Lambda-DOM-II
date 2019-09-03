@@ -15,9 +15,9 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-* [ ] Add your project manager as a reviewer on the pull-request
-* [ ] Your project manager will count the project as complete by merging the branch back into master.
+* [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [x] Add your project manager as a reviewer on the pull-request
+* [x] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Task 1: Set Up LESS Preprocessor
 
@@ -47,8 +47,8 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 
-* [ ] Nest two similar events somewhere in the site and prevent the event propagation properly
-* [ ] Stop the navigation from items from refreshing the page by using `preventDefault()`
+* [x] Nest two similar events somewhere in the site and prevent the event propagation properly
+* [x] Stop the navigation from items from refreshing the page by using `preventDefault()`
 
 ## Stretch Task:
 
